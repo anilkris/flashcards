@@ -1,0 +1,31 @@
+
+.cardA {
+    width : 500px;
+    height: 200px;
+    border: 2px solid green;
+    padding: 25px;
+    margin: 300px;
+}
+
+.buttonBox {
+    
+}
+
+.content {
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    overflow: auto;
+    position: relative;
+    margin:  auto;
+    left: 40%; right:0;
+    top: 50%; bottom:0;
+}
+
+.vertical-center {
+    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 100vh; /* These two lines are counted as one :-)       */
+
+    display: flex;
+    align-items: center;
+}
